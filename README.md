@@ -44,9 +44,29 @@ Talana Kombat es un juego donde 2 personajes se enfrentan hasta la muerte. Cada 
    1. Los movimientos son una lista de string y cada string puede ser de largo máximo 5 (puede ser vacío). 
    2. Los golpes son una lista de string  y cada string puede ser un solo botón máximo o un carácter (puede ser vacío). 
 
-## Ejecutar:
+## Ejecución
 
-1. En la terminal escribe: `python main.py`
+### Local
+
+Para ejecutar localmente:
+
+1. Navega a tu directorio del proyecto en la terminal.
+2. Ejecuta el script con Python.
+
+```bash
+python main.py
+```
+
+### Docker
+Para ejecutar con Docker:
+
+1. Construye la imagen de Docker.
+2. Ejecuta el contenedor de Docker.
+
+```bash
+docker build -t talana-kombat-jrpg .
+docker run --rm talana-kombat-jrpg
+```
 
 ## Resultados en pantalla de terminal:
 
